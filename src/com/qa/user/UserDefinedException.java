@@ -28,6 +28,7 @@ public class UserDefinedException {
 			obj.age(7);
 		} catch (Exception e) {
 			System.out.println(e);
+			System.err.println("tjis is the final output");
 			
 		}
 	}
