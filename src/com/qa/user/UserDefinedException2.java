@@ -8,7 +8,7 @@ class NuvvuChinnaPillavadivi extends Exception{
 	}
 }
 
-public class UserDefinedException {
+public class UserDefinedException2 {
 	
 	private String s;
 	private String x;
@@ -23,12 +23,16 @@ public class UserDefinedException {
 	}
 	}
 	public static void main(String[] args) {
-		UserDefinedException obj = new 	UserDefinedException();
+		UserDefinedException2 obj = new 	UserDefinedException2();
 		try {
 			obj.age(7);
 		} catch (Exception e) {
 			System.out.println(e);
-			
+			System.err.println("tjis is the final output");
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
 		}
 	}
 }
